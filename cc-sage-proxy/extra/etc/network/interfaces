@@ -1,0 +1,9 @@
+auto lo
+iface lo inet loopback
+
+# static ip for local device network
+auto eno2
+iface eno2 inet static
+	address 10.31.82.1
+
+source /etc/network/interfaces.d/*
