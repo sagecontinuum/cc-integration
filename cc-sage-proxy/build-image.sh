@@ -8,12 +8,6 @@ systemd-nspawn -i cc-sage-proxy.raw --bind-ro=/etc/resolv.conf --bind $PWD/extra
 # install packages
 apt-get update && apt-get install -y git
 
-# add custom hostnames
-echo '10.31.82.50 ep1' >> /etc/hosts
-echo '10.31.82.51 ep2' >> /etc/hosts
-echo '10.31.82.52 ep3' >> /etc/hosts
-echo '10.31.82.53 ep4' >> /etc/hosts
-
 # copy extra files
 cp -a /extra/* /
 EOF
