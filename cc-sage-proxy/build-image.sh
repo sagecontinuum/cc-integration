@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -ex
 
 # save ubuntu 18.04 base image
 openstack image save --file cc-sage-proxy.raw CC-Ubuntu18.04
