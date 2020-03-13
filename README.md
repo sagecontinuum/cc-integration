@@ -14,15 +14,15 @@ The ownership policy is: reservation of a proxy boxes is equivalent to reservati
 
 ```text
   CC Network
---------+----------------------
-        |
-        | NIC1
-        |
-  [ CC Proxy Box ]
-        |
-        | NIC2
-        |
-    [ Switch ]
-      | | |
-  [ EP 1, 2, ... ]
+--------+-----------------------+--------
+        |                       |
+        | NIC1                  | NIC1
+        |                       |
+  [ CC Proxy Box 1 ]      [ CC Proxy Box 2 ]
+        |                       |
+        | NIC2                  | NIC2
+        |                       |
+    [ Switch ]              [ Switch ]
+      | | |                   | | |
+  [ EP 1, 2, ... ]        [ EP 1, 2, ... ]
 ```
