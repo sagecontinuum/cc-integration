@@ -1,8 +1,8 @@
 127.0.0.1 localhost
-10.31.82.50 ep1
-10.31.82.51 ep2
-10.31.82.52 ep3
-10.31.82.53 ep4
+10.31.82.55 ep1 ep-nvidia-nano
+10.31.82.56 ep2 ep-nvidia-tx2
+10.31.82.57 ep3 ep-tpu
+10.31.82.58 ep4 ep-xu4
 
 # The following lines are desirable for IPv6 capable hosts
 ::1 ip6-localhost ip6-loopback
