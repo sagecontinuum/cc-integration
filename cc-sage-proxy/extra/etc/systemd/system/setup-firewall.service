@@ -1,0 +1,8 @@
+[Unit]
+Description=Setup firewall and routing
+
+[Service]
+ExecStart=/root/setup-firewall
+
+[Install]
+WantedBy=multi-user.target

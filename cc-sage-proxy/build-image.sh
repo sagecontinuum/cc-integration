@@ -25,6 +25,8 @@ apt-get update && apt-get install -y git
 
 # copy extra files
 cp -a /extra/* /
+
+systemctl enable setup-firewall.service
 EOF
 
 # create new image
